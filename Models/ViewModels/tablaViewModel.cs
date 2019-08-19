@@ -22,6 +22,7 @@ namespace MVCCRUD.Models.ViewModels
         [Required]
         [DataType(DataType.Date)]
         [Display(Name = "Fecha de Nacimiento")]
+        [DisplayFormat(DataFormatString ="{0:yyyy-MM-dd}",ApplyFormatInEditMode = true)]
         public DateTime Fecha_Nacimiento { get; set; }
 
     }

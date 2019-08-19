@@ -13,6 +13,6 @@ namespace MVCCRUD.Models.ViewModels
 
         public string Correo { get; set; }
 
-       // public DateTime Fecha_Nacimiento { get; set; }
+        public DateTime Fecha_Nacimiento { get; set; }
     }
 }
